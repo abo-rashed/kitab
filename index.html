@@ -1,212 +1,145 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="description" content="كتابي: اكتب الكتب الرسمية، راجعها على ورق A4 ثم اطبعها أو احفظها PDF.">
-<meta name="theme-color" content="#17695f">
-<title>كتابي | استوديو الكتب الرسمية</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
-<style>
-:root{--bg:#f1f5f4;--card:#fff;--tx:#1c2b28;--mut:#66787a;--pri:#17695f;--bd:#d6dfdd;--inp:#fff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#111a18;--card:#1a2523;--tx:#e5eeeb;--mut:#92a5a1;--pri:#3fb5a5;--bd:#2c3c39;--inp:#14201e}}
-:root[data-theme="dark"]{--bg:#111a18;--card:#1a2523;--tx:#e5eeeb;--mut:#92a5a1;--pri:#3fb5a5;--bd:#2c3c39;--inp:#14201e}
-*{box-sizing:border-box}
-html,body{margin:0}
-body{background:var(--bg);color:var(--tx);font-family:Cairo,Tahoma,sans-serif;font-size:15px}
-.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--card);border-bottom:1px solid var(--bd);display:flex;gap:8px;align-items:center;padding:10px 14px;flex-wrap:wrap}
-body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--card);z-index:10}
-.top h1{font-size:20px;margin:0;color:var(--pri);flex:1}
-button{font-family:inherit;font-size:14px;border:1px solid var(--bd);background:var(--card);color:var(--tx);padding:8px 14px;border-radius:9px;cursor:pointer}
-button.p{background:var(--pri);color:#fff;border-color:var(--pri)}
-button.d{color:#c0392b}
-main{display:grid;grid-template-columns:minmax(300px,420px) 1fr;gap:16px;padding:16px;max-width:1300px;margin:auto}
-@media(max-width:900px){main{grid-template-columns:1fr}}
-.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:14px}
-.tabs{display:flex;gap:6px;margin-bottom:12px}
-.tabs button{flex:1}.tabs button.on{background:var(--pri);color:#fff;border-color:var(--pri)}
-.pn{display:none}.pn.on{display:block}
-h3{margin:16px 0 8px;font-size:15px;color:var(--pri)}
-label{display:block;font-size:13px;color:var(--mut);margin:8px 0 3px}
-input,textarea,select{width:100%;font-family:inherit;font-size:15px;padding:8px 10px;border:1px solid var(--bd);border-radius:8px;background:var(--inp);color:var(--tx)}
-textarea{min-height:170px;resize:vertical;line-height:1.7}
-.r2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.li{display:flex;gap:6px;align-items:center;border:1px solid var(--bd);border-radius:10px;padding:8px 10px;margin-bottom:8px}
-.li div{flex:1;min-width:0}.li b{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.li small{color:var(--mut)}
-.stage{overflow:auto;background:#aab6b3;border-radius:14px;padding:14px}
-.sheet{background:#fff;color:#000;width:210mm;min-height:297mm;padding:14mm 20mm 18mm;margin:0 auto;font-family:Amiri,"Traditional Arabic","Times New Roman",serif;line-height:1.9;box-shadow:0 4px 18px rgba(0,0,0,.25);position:relative}
-.hd{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:8px;border-bottom:2px solid #000;padding-bottom:8px;font-size:.78em;line-height:1.5;font-weight:700}
-.hd .ar{text-align:center}.hd .en{text-align:center;direction:ltr;font-family:"Times New Roman",serif}
-.hd img{max-height:26mm;max-width:30mm;display:block}
-.meta{display:flex;justify-content:space-between;margin-top:10px;font-weight:700;font-size:.9em}
-.tg{text-align:center;margin-top:6px}.tg span{border:1.5px solid #000;padding:0 12px;margin:0 4px;font-weight:700;font-size:.85em}
-.to{text-align:center;font-weight:700;margin:14px 0 4px;font-size:1.05em}
-.sub{text-align:center;font-weight:700;text-decoration:underline;margin-bottom:12px}
-.bd{text-align:justify;white-space:pre-wrap}
-.sg{margin:26px 0 0 0;margin-right:auto;width:max-content;text-align:center;font-weight:700}
-.cc{margin-top:22px;font-size:.85em}
-@media print{
- @page{size:A4;margin:0}
- body::before{display:none}
- .top,.ui{display:none!important}
- body,.stage,main{background:#fff;padding:0;margin:0;display:block;border:0}
- .sheet{box-shadow:none;margin:0;zoom:1!important}
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="HTTrack is an easy-to-use website mirror utility. It allows you to download a World Wide website from the Internet to a local directory,building recursively all structures, getting html, images, and other files from the server to your computer. Links are rebuiltrelatively so that you can freely browse to the local site (works with any browser). You can mirror several sites together so that you can jump from one toanother. You can, also, update an existing mirror site, or resume an interrupted download. The robot is fully configurable, with an integrated help" />
+	<meta name="keywords" content="httrack, HTTRACK, HTTrack, winhttrack, WINHTTRACK, WinHTTrack, offline browser, web mirror utility, aspirateur web, surf offline, web capture, www mirror utility, browse offline, local  site builder, website mirroring, aspirateur www, internet grabber, capture de site web, internet tool, hors connexion, unix, dos, windows 95, windows 98, solaris, ibm580, AIX 4.0, HTS, HTGet, web aspirator, web aspirateur, libre, GPL, GNU, free software" />
+	<title>List of available projects - HTTrack Website Copier</title>
+	<!-- Mirror and index made by HTTrack Website Copier/3.50-5 [XR&CO] -->
+
+	<style type="text/css">
+	<!--
+
+body {
+	margin: 0;  padding: 0;  margin-bottom: 15px;  margin-top: 8px;
+	background: #77b;
 }
+body, td {
+	font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	}
+
+#subTitle {
+	background: #000;  color: #fff;  padding: 4px;  font-weight: bold; 
+	}
+
+#siteNavigation a, #siteNavigation .current {
+	font-weight: bold;  color: #448;
+	}
+#siteNavigation a:link    { text-decoration: none; }
+#siteNavigation a:visited { text-decoration: none; }
+
+#siteNavigation .current { background-color: #ccd; }
+
+#siteNavigation a:hover   { text-decoration: none;  background-color: #fff;  color: #000; }
+#siteNavigation a:active  { text-decoration: none;  background-color: #ccc; }
+
+
+a:link    { text-decoration: underline;  color: #00f; }
+a:visited { text-decoration: underline;  color: #000; }
+a:hover   { text-decoration: underline;  color: #c00; }
+a:active  { text-decoration: underline; }
+
+#pageContent {
+	clear: both;
+	border-bottom: 6px solid #000;
+	padding: 10px;  padding-top: 20px;
+	line-height: 1.65em;
+	background-image: url(backblue.gif);
+	background-repeat: no-repeat;
+	background-position: top right;
+	}
+
+#pageContent, #siteNavigation {
+	background-color: #ccd;
+	}
+
+
+.imgLeft  { float: left;   margin-right: 10px;  margin-bottom: 10px; }
+.imgRight { float: right;  margin-left: 10px;   margin-bottom: 10px; }
+
+hr { height: 1px;  color: #000;  background-color: #000;  margin-bottom: 15px; }
+
+h1 { margin: 0;  font-weight: bold;  font-size: 2em; }
+h2 { margin: 0;  font-weight: bold;  font-size: 1.6em; }
+h3 { margin: 0;  font-weight: bold;  font-size: 1.3em; }
+h4 { margin: 0;  font-weight: bold;  font-size: 1.18em; }
+
+.blak { background-color: #000; }
+.hide { display: none; }
+.tableWidth { min-width: 400px; }
+
+.tblRegular       { border-collapse: collapse; }
+.tblRegular td    { padding: 6px;  background-image: url(fade.gif);  border: 2px solid #99c; }
+.tblHeaderColor, .tblHeaderColor td { background: #99c; }
+.tblNoBorder td   { border: 0; }
+
+
+// -->
 </style>
+
 </head>
+
 <body>
-<div class="top">
- <h1>📄 كتابي</h1>
- <button id="bNew">كتاب جديد</button>
- <button id="bDemo">كتاب تجريبي</button>
- <button class="p" id="bPrint">طباعة / PDF</button>
-</div>
-<main>
-<section class="ui card">
- <div class="tabs"><button class="on" data-t="ed">تحرير</button><button data-t="lib">مكتبتي</button><button data-t="bk">نسخ احتياطي</button></div>
+<table width="76%" border="0" align="center" cellspacing="0" cellpadding="3" class="tableWidth">
+	<tr>
+	<td id="subTitle">HTTrack Website Copier - Open Source offline browser</td>
+	</tr>
+</table>
+<table width="76%" border="0" align="center" cellspacing="0" cellpadding="0" class="tableWidth">
+<tr class="blak">
+<td>
+	<table width="100%" border="0" align="center" cellspacing="1" cellpadding="0">
+	<tr>
+	<td colspan="6"> 
+		<table width="100%" border="0" align="center" cellspacing="0" cellpadding="10">
+		<tr> 
+		<td id="pageContent"> 
+<!-- ==================== End prologue ==================== -->
 
- <div class="pn on" id="ed">
-  <h3>ترويسة عربية</h3>
-  <input data-k="h1.0" placeholder="السطر الأول (مثال: جمهورية العراق)">
-  <input data-k="h1.1" placeholder="السطر الثاني (الوزارة)" style="margin-top:6px">
-  <input data-k="h1.2" placeholder="السطر الثالث (الجهة)" style="margin-top:6px">
-  <input data-k="h1.3" placeholder="السطر الرابع (القسم)" style="margin-top:6px">
-  <h3>English header</h3>
-  <input data-k="h2.0" placeholder="Line 1 (Republic of Iraq)" dir="ltr">
-  <input data-k="h2.1" placeholder="Line 2" dir="ltr" style="margin-top:6px">
-  <input data-k="h2.2" placeholder="Line 3" dir="ltr" style="margin-top:6px">
-  <input data-k="h2.3" placeholder="Line 4" dir="ltr" style="margin-top:6px">
-  <label>شعار الجهة (اختياري)</label>
-  <input type="file" id="logo" accept="image/*">
-  <button id="noLogo" style="margin-top:6px">إزالة الشعار</button>
-  <small style="display:block;color:var(--mut);margin-top:6px">الترويسة والشعار تُحفظ تلقائيًا للكتب الجديدة.</small>
 
-  <h3>بيانات الكتاب</h3>
-  <div class="r2">
-   <div><label>رقم الكتاب / العدد</label><input data-k="num"></div>
-   <div><label>التاريخ</label><input type="date" data-k="date"></div>
-  </div>
-  <label>الجهة الموجّه إليها الكتاب</label><input data-k="to" placeholder="مثال: إلى / مديرية ...">
-  <label>الموضوع</label><input data-k="subj">
-  <div class="r2">
-   <div><label>درجة السرية</label><select data-k="conf"><option>عادي</option><option>سري</option><option>سري وشخصي</option></select></div>
-   <div><label>الأولوية</label><select data-k="prio"><option>اعتيادي</option><option>عاجل</option><option>عاجل جدًا</option></select></div>
-  </div>
+<h1 ALIGN=Center>Index of locally available projects:</H1>
+  <table border="0" width="100%" cellspacing="1" cellpadding="0">
+		<TH>
+		<BR/>
+			No categories
+		</TH>
+		<TR>
+		  <TD BACKGROUND="fade.gif">
+                    &middot; <A HREF="ali/index.html">ali</A>
+   		  </TD>
+		</TR>
+		<TR>
+		  <TD BACKGROUND="fade.gif">
+                    &middot; <A HREF="kitabi/index.html">kitabi</A>
+   		  </TD>
+		</TR>
+	</TABLE>
+	<BR>
+	<H6 ALIGN="RIGHT">
+         <I>Mirror and index made by HTTrack Website Copier [XR&amp;CO]</I>
+	</H6>
+	<!-- Mirror and index made by HTTrack Website Copier/3.50-5 [XR&CO] -->
+	<!-- Thanks for using HTTrack Website Copier! -->
 
-  <h3>النص والتوقيع</h3>
-  <label>نص الكتاب</label><textarea data-k="body" placeholder="تحية طيبة ..."></textarea>
-  <div class="r2">
-   <div><label>اسم الموقّع</label><input data-k="sigName"></div>
-   <div><label>صفته / منصبه</label><input data-k="sigTitle"></div>
-  </div>
-  <label>نسخة منه إلى (اختياري، سطر لكل جهة)</label><textarea data-k="cc" style="min-height:70px"></textarea>
+<!-- ==================== Start epilogue ==================== -->
+		</td>
+		</tr>
+		</table>
+	</td>
+	</tr>
+	</table>
+</td>
+</tr>
+</table>
 
-  <h3>التنسيق</h3>
-  <label>حجم الخط: <b id="fsv"></b> نقطة</label>
-  <input type="range" min="12" max="22" data-k="fs">
- </div>
+<table width="76%" border="0" align="center" valign="bottom" cellspacing="0" cellpadding="0">
+	<tr>
+	<td id="footer"><small>&copy; 1998 Xavier Roche &amp; other contributors - Web Design: Leto Kauler.</small></td>
+	</tr>
+</table>
 
- <div class="pn" id="lib"><div id="list"></div></div>
-
- <div class="pn" id="bk">
-  <p style="color:var(--mut)">كتبك محفوظة في هذا المتصفح فقط. انسخ النسخة الاحتياطية واحفظها في ملاحظات أو أرسلها لنفسك، ويمكنك لصقها لاحقًا لاستعادة كتبك.</p>
-  <button id="bExp">إنشاء نسخة احتياطية</button>
-  <textarea id="bkTxt" placeholder="هنا تظهر النسخة الاحتياطية، أو الصق نسخة سابقة ثم اضغط استعادة"></textarea>
-  <button class="p" id="bImp" style="margin-top:8px">استعادة من النص</button>
-  <p id="bkMsg" style="color:var(--mut)"></p>
- </div>
-</section>
-
-<section>
- <div class="stage" id="stage"><div class="sheet" id="paper"></div></div>
-</section>
-</main>
-
-<script>
-(function(){
-const $=id=>document.getElementById(id);
-const esc=t=>String(t==null?'':t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const today=()=>new Date().toISOString().slice(0,10);
-const fmt=d=>{if(!d)return'';const [y,m,dd]=d.split('-');return +dd+'/'+ +m+'/'+y};
-const ls={get(k,def){try{const v=localStorage.getItem(k);return v?JSON.parse(v):def}catch(e){return def}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
-
-const blank=()=>{const h=ls.get('kitabi:header',null)||{h1:['جمهورية العراق','','',''],h2:['Republic of Iraq','','',''],logo:''};
- return{id:'k'+Date.now(),h1:h.h1.slice(),h2:h.h2.slice(),logo:h.logo||'',num:'',date:today(),to:'',subj:'',body:'',sigName:'',sigTitle:'',cc:'',conf:'عادي',prio:'اعتيادي',fs:17,upd:Date.now()}};
-let s=ls.get('kitabi:current',null)||blank();
-let letters=ls.get('kitabi:letters',[]);
-
-function getK(k){const p=k.split('.');return p.length>1?s[p[0]][+p[1]]:s[k]}
-function setK(k,v){const p=k.split('.');if(p.length>1)s[p[0]][+p[1]]=v;else s[k]=v}
-
-function render(){
- const p=$('paper');p.style.fontSize=s.fs+'pt';
- const tags=(s.conf!=='عادي'?'<span>'+esc(s.conf)+'</span>':'')+(s.prio!=='اعتيادي'?'<span>'+esc(s.prio)+'</span>':'');
- const cc=s.cc.trim()?'<div class="cc"><b>نسخة منه إلى:</b><br>'+s.cc.trim().split('\n').map(x=>'- '+esc(x)).join('<br>')+'</div>':'';
- p.innerHTML='<div class="hd"><div class="ar">'+s.h1.map(esc).join('<br>')+'</div><div>'+(s.logo?'<img src="'+s.logo+'" alt="">':'')+'</div><div class="en">'+s.h2.map(esc).join('<br>')+'</div></div>'
- +'<div class="meta"><div>العدد: '+esc(s.num)+'</div><div>التاريخ: '+esc(fmt(s.date))+'</div></div>'
- +(tags?'<div class="tg">'+tags+'</div>':'')
- +'<div class="to">'+esc(s.to)+'</div>'
- +(s.subj?'<div class="sub">الموضوع / '+esc(s.subj)+'</div>':'')
- +'<div class="bd">'+esc(s.body)+'</div>'
- +'<div class="sg">'+esc(s.sigName)+'<br>'+esc(s.sigTitle)+'</div>'+cc;
- $('fsv').textContent=s.fs;fit();
-}
-function fit(){const st=$('stage'),p=$('paper');p.style.zoom=1;const w=st.clientWidth-28,pw=p.offsetWidth;p.style.zoom=Math.min(1,w/pw)}
-window.addEventListener('resize',fit);
-
-function fillForm(){document.querySelectorAll('[data-k]').forEach(e=>{e.value=getK(e.dataset.k)==null?'':getK(e.dataset.k)})}
-
-let tm;
-function persist(){
- s.upd=Date.now();ls.set('kitabi:current',s);
- clearTimeout(tm);tm=setTimeout(()=>{
-  const empty=!(s.num||s.to||s.subj||s.body);
-  if(!empty){const i=letters.findIndex(x=>x.id===s.id);const c=JSON.parse(JSON.stringify(s));if(i>=0)letters[i]=c;else letters.unshift(c);ls.set('kitabi:letters',letters);drawList()}
- },500);
-}
-document.querySelectorAll('[data-k]').forEach(e=>{
- e.addEventListener('input',()=>{
-  const k=e.dataset.k;setK(k,k==='fs'?+e.value:e.value);
-  if(k[0]==='h')ls.set('kitabi:header',{h1:s.h1,h2:s.h2,logo:s.logo});
-  render();persist();
- });
-});
-
-$('logo').addEventListener('change',e=>{
- const f=e.target.files[0];if(!f)return;
- const r=new FileReader();r.onload=()=>{const im=new Image();im.onload=()=>{
-  const m=300,k=Math.min(1,m/Math.max(im.width,im.height));
-  const c=document.createElement('canvas');c.width=im.width*k;c.height=im.height*k;
-  c.getContext('2d').drawImage(im,0,0,c.width,c.height);
-  s.logo=c.toDataURL('image/png');ls.set('kitabi:header',{h1:s.h1,h2:s.h2,logo:s.logo});render();persist()};im.src=r.result};
- r.readAsDataURL(f);
-});
-$('noLogo').onclick=()=>{s.logo='';ls.set('kitabi:header',{h1:s.h1,h2:s.h2,logo:''});$('logo').value='';render();persist()};
-
-function openLetter(l){s=JSON.parse(JSON.stringify(l));ls.set('kitabi:current',s);fillForm();render();tab('ed');window.scrollTo(0,0)}
-function drawList(){
- const el=$('list');
- if(!letters.length){el.innerHTML='<p style="color:var(--mut)">لا توجد كتب محفوظة بعد. ابدأ بكتابة كتاب وسيُحفظ تلقائيًا هنا.</p>';return}
- el.innerHTML=letters.map(l=>'<div class="li"><div><b>'+esc(l.subj||'(بدون موضوع)')+'</b><small>'+esc(l.to||'')+' · '+esc(fmt(l.date))+'</small></div><button data-o="'+l.id+'">فتح</button><button class="d" data-x="'+l.id+'">حذف</button></div>').join('');
-}
-$('list').addEventListener('click',e=>{
- const o=e.target.dataset.o,x=e.target.dataset.x;
- if(o){const l=letters.find(z=>z.id===o);if(l)openLetter(l)}
- if(x&&confirm('هل تريد حذف هذا الكتاب؟')){letters=letters.filter(z=>z.id!==x);ls.set('kitabi:letters',letters);drawList()}
-});
-
-function tab(t){document.querySelectorAll('.tabs button').forEach(b=>b.classList.toggle('on',b.dataset.t===t));document.querySelectorAll('.pn').forEach(p=>p.classList.toggle('on',p.id===t));if(t==='lib')drawList()}
-document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>tab(b.dataset.t));
-
-$('bNew').onclick=()=>{s=blank();ls.set('kitabi:current',s);fillForm();render();tab('ed')};
-$('bDemo').onclick=()=>{s=blank();Object.assign(s,{num:'٣٢٤ / ٢٠٢٦',to:'إلى / قسم شؤون الطلبة',subj:'طلب تأييد دراسة',body:'تحية طيبة ...\n\nنرجو التفضل بالموافقة على إصدار تأييد دراسة للطالب (........) المرحلة الرابعة، وذلك لتقديمه إلى من يهمه الأمر.\n\nمع فائق التقدير والاحترام ...',sigName:'اسم الموقّع',sigTitle:'رئيس القسم',cc:'الصادرة\nالمتابعة'});ls.set('kitabi:current',s);fillForm();render();persist();tab('ed')};
-$('bPrint').onclick=()=>{try{window.print()}catch(e){alert('افتح الصفحة في تبويب مستقل ثم اضغط طباعة')}};
-
-$('bExp').onclick=()=>{const t=JSON.stringify({letters,header:ls.get('kitabi:header',null)});$('bkTxt').value=t;$('bkTxt').select();let ok=false;try{ok=document.execCommand('copy')}catch(e){}$('bkMsg').textContent=ok?'تم النسخ. الصقه في مكان آمن.':'حدد النص أعلاه وانسخه يدويًا.'};
-$('bImp').onclick=()=>{try{const d=JSON.parse($('bkTxt').value);if(!d.letters)throw 0;d.letters.forEach(l=>{if(!letters.find(x=>x.id===l.id))letters.push(l)});ls.set('kitabi:letters',letters);if(d.header)ls.set('kitabi:header',d.header);drawList();$('bkMsg').textContent='تمت الاستعادة ('+d.letters.length+' كتاب).'}catch(e){$('bkMsg').textContent='النص غير صالح.'}};
-
-fillForm();render();drawList();
-})();
-</script>
 </body>
+
 </html>
+
+
